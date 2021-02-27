@@ -54,6 +54,7 @@ function output(img_src, size, theme){
   if(size < 3){
     console.log('┐(´Д`)┌');
     alert('┐(´Д`)┌');
+    return;
   }
 
   // img要素
