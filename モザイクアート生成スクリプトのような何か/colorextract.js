@@ -5,6 +5,7 @@ window.addEventListener('load', ()=>{
     const size = document.body.querySelector('input[name="size"]').value;
     const mode = document.body.querySelector('input[name="mode"]').value;
     output(url, size, mode);
+    output(url, 3, 'dark');
   });
   const input = document.body.querySelector('input[name="size"]');
   input.addEventListener('input', ()=>{
@@ -207,3 +208,4 @@ function output(img_src, size, theme){
 }
 
 output('https://pbs.twimg.com/profile_images/1362198309020966913/pn-Pw9kI.jpg', 90);
+output('https://pbs.twimg.com/profile_images/1362198309020966913/pn-Pw9kI.jpg', 3, 'dark');
