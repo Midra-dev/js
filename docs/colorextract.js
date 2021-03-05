@@ -23,7 +23,7 @@ window.addEventListener('load', ()=>{
   ・ノア（かわいい）
     https://pbs.twimg.com/media/EQ81ifWUwAUliLV.png?format=png&name=large
   ・み
-    https://pbs.twimg.com/profile_images/1362198309020966913/pn-Pw9kI.jpg
+    https://pbs.twimg.com/profile_images/1365744424328724483/hlxbF63c.png
   ・は
     https://pbs.twimg.com/profile_images/1359662503387566083/DFfh3MV6.jpg
   ・ふ
@@ -52,7 +52,7 @@ window.addEventListener('load', ()=>{
 function output(img_src, size, theme){
   'use strict';
 
-  if(size < 3){
+  if(isNaN(size) || size < 3){
     console.log('┐(´Д`)┌');
     alert('┐(´Д`)┌');
     return;
@@ -207,5 +207,5 @@ function output(img_src, size, theme){
   // xhr.send();
 }
 
-output('https://pbs.twimg.com/media/EQ81ifWUwAUliLV.png?format=png&name=large', 90);
-output('https://pbs.twimg.com/media/EQ81ifWUwAUliLV.png?format=png&name=large', 3, 'dark');
+output('https://pbs.twimg.com/profile_images/1365744424328724483/hlxbF63c.png', 90);
+output('https://pbs.twimg.com/profile_images/1365744424328724483/hlxbF63c.png', 3, 'dark');
