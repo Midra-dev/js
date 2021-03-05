@@ -207,5 +207,5 @@ function output(img_src, size, theme){
   // xhr.send();
 }
 
-output('https://pbs.twimg.com/profile_images/1362198309020966913/pn-Pw9kI.jpg', 90);
-output('https://pbs.twimg.com/profile_images/1362198309020966913/pn-Pw9kI.jpg', 3, 'dark');
+output('https://pbs.twimg.com/media/EQ81ifWUwAUliLV.png?format=png&name=large', 90);
+output('https://pbs.twimg.com/media/EQ81ifWUwAUliLV.png?format=png&name=large', 3, 'dark');
